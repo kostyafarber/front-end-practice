@@ -110,7 +110,7 @@ cd qr-code-component-main
 
 3. You can open any of the projects locally play around with the content.
 
-    _If your on vscode you can install [LiveReload](https://marketplace.visualstudio.com/items?itemName=ziishaned.livereload) and the [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass)_.
+    _If your on vscode you can install [LiveReload](https://marketplace.visualstudio.com/items?itemName=ziishaned.livereload) and the [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass)_ to change the content in real-time.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,28 +118,13 @@ cd qr-code-component-main
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+An example of one of the projects:
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+![qr-submission]
 
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/kostyafarber/front-end-practice/issues) for a full list of proposed features (and known issues).
+_For more examples, please refer to [https://www.frontendmentor.io/challenges](https://www.frontendmentor.io/challenges)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -158,7 +143,6 @@ Don't forget to give the project a star! Thanks again!
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
 <!-- LICENSE -->
 ## License
 
@@ -171,9 +155,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - kostya.farber@gmail.com
+Kostya Farber - kostya.farber@gmail.com
 
-Project Link: [https://github.com/kostyafarber/front-end-practice](https://github.com/kostyafarber/front-end-practice)
+My Personal Website - [https://kostyafarber.github.io/](https://kostyafarber.github.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -182,9 +166,8 @@ Project Link: [https://github.com/kostyafarber/front-end-practice](https://githu
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [This udemy course that showed me this website!](https://www.udemy.com/course/the-complete-web-development-bootcamp/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -223,3 +206,4 @@ Project Link: [https://github.com/kostyafarber/front-end-practice](https://githu
 [JQuery-url]: https://jquery.com 
 [font-end-logo]: /images/front-end-logo.png
 [front-end-website]: /images/front-end-website.png
+[qr-submission]: /images/qr-submission.png
