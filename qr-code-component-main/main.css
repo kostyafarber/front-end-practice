@@ -1,0 +1,52 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+p, h1 {
+  font-family: Outfit;
+}
+
+html body {
+  background-color: #d6e2f0;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 25vh 0 25vh 0;
+}
+
+.card {
+  background-color: white;
+  border-radius: 15px;
+  width: 20vw;
+}
+
+.qr-code-image {
+  max-width: 100%;
+  width: 100%;
+  border-radius: 25px;
+  padding: 0.85em 0.85em 0.60em 0.85em;
+}
+
+.text-container {
+  padding: 0 1.75em 1.5em 1.75em;
+  text-align: center;
+}
+
+.title {
+  font-size: 1.2em;
+  color: #1f3251;
+}
+
+.desc {
+  font-size: 0.85em;
+  color: #7b879d;
+}
+/*# sourceMappingURL=main.css.map */

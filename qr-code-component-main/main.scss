@@ -1,0 +1,48 @@
+$font: Outfit;
+
+* {
+    box-sizing: border-box;
+}
+
+p,h1 {
+    font-family: $font;
+}
+
+html body {
+    background-color: hsl(212, 45%, 89%); 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25vh 0 25vh 0;
+}
+
+.card {
+    background-color: white;
+    border-radius: 15px;
+    width: 20vw;
+
+}
+
+.qr-code-image {
+    max-width: 100%;
+    width: 100%;
+    border-radius: 25px;
+    padding: 0.85em 0.85em 0.60em 0.85em;
+}
+
+.text-container {
+    padding: 0 1.75em 1.5em 1.75em;
+    text-align: center;
+}
+
+.title {
+    font-size: 1.2em;
+    color: hsl(218, 44%, 22%);
+
+}
+
+.desc {
+    font-size: 0.85em;
+    color: hsl(220, 15%, 55%);
+}
