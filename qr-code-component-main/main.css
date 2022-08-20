@@ -25,7 +25,7 @@ html body {
 .card {
   background-color: white;
   border-radius: 15px;
-  width: 20vw;
+  width: 18vw;
 }
 
 .qr-code-image {
@@ -41,12 +41,14 @@ html body {
 }
 
 .title {
-  font-size: 1.2em;
+  font-size: 1.1em;
   color: #1f3251;
+  font-weight: 700;
 }
 
 .desc {
   font-size: 0.85em;
   color: #7b879d;
+  font-weight: 400;
 }
 /*# sourceMappingURL=main.css.map */
