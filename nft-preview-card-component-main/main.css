@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,400;1,600&display=swap");
+:root {
+  --main-bg: hsl(217, 54%, 11%);
+  --card-bg: hsl(216, 50%, 16%);
+  --line: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+  --font: 'Overpass', sans-serif;
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.flex, html body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body {
+  background-color: var(--main-bg);
+  margin: auto;
+}
+
+.card {
+  border-radius: 10px;
+  background-color: var(--card-bg);
+  max-width: 150px;
+  padding: 0.5em;
+}
+
+.card p.desc, .card p.creator {
+  font-family: var(--font);
+}
+
+.card p.price {
+  font-family: var(--font);
+}
+
+.card p.alert {
+  font-family: var(--font);
+  padding: 0 0 0 0.1rem;
+}
+
+.card h1 {
+  font-family: var(--font);
+}
+
+.cube-img img {
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+.heading {
+  font-size: 0.5em;
+  margin: 0;
+  color: white;
+  font-weight: 700;
+}
+
+.desc {
+  color: var(--line);
+  font-size: 0.2em;
+}
+
+.price {
+  color: var(--cyan);
+  font-size: 0.1em;
+  padding: 0 0 0 0.1rem;
+}
+
+.alert {
+  font-size: 0.1em;
+  color: var(--line);
+}
+
+.attributes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 0.5rem;
+}
+
+.price-container, .alert-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.price-container img, .alert-container img {
+  width: 5px;
+  height: 5px;
+}
+
+.alert-container {
+  padding: 0 0.5rem 0 0;
+}
+
+.line {
+  border: 0.1px solid var(--line);
+  width: auto;
+}
+
+.creator {
+  font-size: 0.1em;
+}
+/*# sourceMappingURL=main.css.map */

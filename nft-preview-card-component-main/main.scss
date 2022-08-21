@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,400;1,600&display=swap');
+
+:root {
+    --main-bg: hsl(217, 54%, 11%);
+    --card-bg: hsl(216, 50%, 16%);
+    --line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+    --font: 'Overpass', sans-serif;
+
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+html body {
+    @extend .flex;
+    background-color: var(--main-bg);
+    margin: auto;
+}
+
+.card {
+    border-radius: 10px;
+    background-color: var(--card-bg);
+    max-width: 150px;
+    padding: 0.5em;
+    //height: calc(100% - 5rem);
+
+    p.desc, p.creator {
+        font-family: var(--font);
+       
+    }
+
+    p.price {
+        font-family: var(--font);
+    }
+
+    p.alert {
+        font-family: var(--font);
+        padding: 0 0 0 0.1rem
+    }
+
+    h1 {
+        font-family: var(--font);
+       
+    }
+
+}
+
+.cube-img img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.heading {
+    font-size: 0.5em;
+    margin: 0;
+    color: white;
+    font-weight: 700;
+}
+
+.desc {
+    color: var(--line);
+    font-size: 0.2em;
+}
+
+.price {
+    color: var(--cyan);
+    font-size: 0.1em;
+    padding: 0 0 0 0.1rem;
+}
+
+.alert {
+    font-size: 0.1em;
+    color: var(--line);
+}
+
+.attributes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+
+.price-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   
+    
+    img {
+        width: 5px;
+        height: 5px;
+    }
+    
+}
+
+.alert-container {
+    @extend .price-container;
+    padding: 0 0.5rem 0 0;
+
+}
+
+
+.line {
+    border: 0.1px solid var(--line);
+    width: auto;
+}
+
+.creator {
+    font-size: 0.1em;
+}
+
+
