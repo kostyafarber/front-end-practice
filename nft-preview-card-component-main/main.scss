@@ -5,7 +5,7 @@
     --card-bg: hsl(216, 50%, 16%);
     --line: hsl(215, 32%, 27%);
     --white: hsl(0, 0%, 100%);
-    --font: 'Overpass';
+    --font: "Outfit", sans-serif;
 
     --soft-blue: hsl(215, 51%, 70%);
     --cyan: hsl(178, 100%, 50%);
@@ -33,8 +33,8 @@ html body {
 .card {
     border-radius: 5px;
     background-color: var(--card-bg);
-    max-width: 130px;
-    padding: 0.5em;
+    max-width: 350px;
+    padding: 1.6em;
 
     p.desc, p.creator {
         font-family: var(--font);
@@ -75,14 +75,12 @@ html body {
 
     img {
         margin: auto;
-        width: 25px;
+        width: 50px;
         display: flex;
-        transform: translate(0, 175%);
+        transform: translate(0, 225%);
     }
 
 }
-
-
 
 .overlay:hover {
     opacity: 0.5;
@@ -90,35 +88,35 @@ html body {
 }
 
 .heading {
-    font-size: 0.5em;
-    margin-top: 0.5rem;
+    font-size: 1.3em;
+    margin-top: 1.5rem;
     color: white;
     font-weight: 600;
 }
 
 .desc {
     color: var(--soft-blue);
-    font-size: 0.2em;
-    margin-top: 0.5rem;
-    line-height: 0.6rem;
+    font-size: 1em;
+    margin-top: 1rem;
+    line-height: 1.6rem;
     font-weight: 300;
 }
 
 .price {
     color: var(--cyan);
-    font-size: 0.1em;
+    font-size: 0.9em;
     font-weight: 700;
 }
 
 .alert {
-    font-size: 0.1em;
+    font-size: 0.9em;
     color: var(--soft-blue);
 }
 
 .attributes {
     display: flex;
     justify-content: space-between;
-    margin-top: 0.5rem;
+    margin-top: 1.2rem;
 }
 
 .price-container {
@@ -129,13 +127,13 @@ html body {
    
     
     img.etheruem {
-        width: 4px;
-        height: 7px;
+        width: 14px;
+        height: 17px;
     }
 
     img.clock {
-        width: 6px;
-        height: 6px;
+        width: 16px;
+        height: 16px;
     }
     
 }
@@ -149,24 +147,24 @@ html body {
 .line {
     border: 0.1px solid var(--line);
     width: auto;
-    margin-top: 0.5rem;
+    margin-top: 1.6rem;
 }
 
 .creator {
-    font-size: 0.1em;
+    font-size: 1em;
     color: var(--soft-blue);
 }
 
 .creator__container {
     display: flex;
     align-items: center;
-    margin-top: 0.5rem;
-    gap: 0.38rem;
+    margin-top: 1.3rem;
+    gap: 0.78rem;
 }
 
 .creator__image {
-    width: 12px;
-    height: 12px;
+    width: 32px;
+    height: 32px;
     display: inline;
     border: 0.40px solid var(--white);
     border-radius: 50%;
