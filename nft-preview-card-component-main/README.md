@@ -80,4 +80,4 @@ I want to continue mastering vanilla HTML/CSS and getting comfortable with organ
 - Website - [https://kostyafarber.github.io/](https://kostyafarber.github.io/)
 - Frontend Mentor - [@kostyafarber](https://www.frontendmentor.io/profile/kostyafarber)
 
-[nft-screenshot]: /images/nft-card.png
+[nft-screenshot]: images/nft-card.png
