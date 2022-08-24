@@ -1,40 +1,121 @@
-@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+:root {
+    
+    // colours
+    --orange: hsl(25, 97%, 53%);
+    --white: hsl(0, 0%, 100%);
+    --light-grey: hsl(217, 12%, 63%);
+    --medium-grey: hsl(216, 12%, 54%);
+    --medium-grey-li: hsla(216, 12%, 54%, 0.1);
+    --dark-blue: hsl(213, 19%, 18%);
+    --v-dark-blue: hsl(216, 12%, 8%);
+    --overpass: 'Overpass', sans-serif;
+}
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+    font-family: var(--overpass);
 
-$font: 'Overpass', sans-serif;
-
-.flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.stretch-item {
-    flex: 1 1 100%
 }
 
 body {
-    @extend .flex;
-    height: 100vh;
-    //background-color: hsl(216, 12%, 8%);
-}
-
-.numbers {
+    min-height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    
+    justify-content: center;
+    background-color: var(--v-dark-blue);
+
 }
 
-.button {
-    padding: 0.8em 1.2em;
+main {
+    max-width: 400px;
+    background: linear-gradient(90deg, hsl(213, 19%, 18%), #44444424);
+    border-radius: 20px;
+}
+
+h1 {
+    color: var(--white);
+    font-weight: 700;
+}
+
+p {
+    color: var(--light-grey);
+    font-size: 0.9em;
+    line-height: 1.5em;
+}
+
+.ratings li {
+    background-color: var(--medium-grey-li);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 15px;
+    position: relative;
+}
+
+img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background-color: red;
 }
+
+.text {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    row-gap: 10px;
+}
+
+.ratings {
+    color: var(--light-grey);
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn {
+    color: var(--white);
+    text-align: center;
+    background: var(--orange);
+    padding: 0.5rem;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.btn:hover {
+    background-color: var(--white);
+    transition: 0.3s;
+    color: var(--orange);
+}
+
+.ratings li:hover {
+    background-color: var(--orange);
+    color: var(--white);
+    transition: 0.3s;
+}
+
+.ratings li:cli {
+    background-color: var(--orange);
+    color: var(--white);
+    transition: 0.3s;
+}
+
+
 
 
 
