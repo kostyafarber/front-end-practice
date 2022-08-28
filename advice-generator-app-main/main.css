@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap");
+:root {
+  --light-cyan: hsl(193, 38%, 86%);
+  --neon-green: hsl(150, 100%, 66%);
+  --gray-blue: hsl(217, 19%, 38%);
+  --dark-gray-blue: hsl(217, 19%, 24%);
+  --dark-blue: hsl(218, 23%, 16%);
+  --manrope: 'Manrope', sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: var(--manrope);
+  color: var(--light-cyan);
+}
+
+html {
+  min-height: 100vh;
+  background-color: var(--dark-blue);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main {
+  background-color: var(--dark-gray-blue);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 500px;
+  padding: 1.8rem;
+  border-radius: 15px;
+  text-align: center;
+  position: relative;
+}
+
+@media only screen and (max-width: 500px) {
+  main {
+    max-width: 360px;
+  }
+}
+
+p, span {
+  text-transform: uppercase;
+  font-size: 0.75em;
+  font-weight: 400;
+  color: var(--neon-green);
+  letter-spacing: 0.3em;
+}
+
+h1 {
+  font-weight: 700;
+  margin-bottom: 1.8rem;
+  font-size: 1.5em;
+}
+
+.line {
+  margin-bottom: 2.3rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .line {
+    max-width: 300px;
+  }
+}
+
+img.dice {
+  width: 22px;
+  height: 22px;
+}
+
+button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: var(--neon-green);
+  bottom: -30px;
+  border: none;
+}
+
+button:hover {
+  color: white;
+  -webkit-box-shadow: 0 5px 15px var(--neon-green);
+          box-shadow: 0 5px 15px var(--neon-green);
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+/*# sourceMappingURL=main.css.map */
