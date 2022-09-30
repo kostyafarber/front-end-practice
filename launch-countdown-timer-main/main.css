@@ -18,7 +18,8 @@
 }
 
 body {
-  min-height: 100vh;
+  height: 100vh;
+  min-height: -webkit-fill-available;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -65,17 +66,24 @@ main {
   display: -ms-grid;
   display: grid;
   position: relative;
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-columns: (minmax(50px, 1fr))[4];
+      grid-template-columns: repeat(4, minmax(50px, 1fr));
   -webkit-column-gap: 1.5rem;
           column-gap: 1.5rem;
   row-gap: 1.3rem;
+  padding: 1rem;
 }
 
 h1.heading {
   margin-bottom: 100px;
   text-transform: uppercase;
   font-size: 1.2em;
+}
+
+@media screen and (max-width: 845px) {
+  h1.heading {
+    font-size: 1.4em;
+  }
 }
 
 .numbers {
@@ -89,6 +97,12 @@ h1.heading {
   -webkit-box-shadow: 1px 7.5px 5px 1px rgba(0, 0, 0, 0.8);
           box-shadow: 1px 7.5px 5px 1px rgba(0, 0, 0, 0.8);
   position: relative;
+}
+
+@media screen and (max-width: 845px) {
+  .numbers {
+    font-size: 1.8rem;
+  }
 }
 
 .numbers::before {
@@ -231,13 +245,13 @@ h1.heading {
   opacity: 0.6;
 }
 
-img {
-  width: 100%;
-}
-
 .img_overlay {
   position: absolute;
   bottom: 0;
+  width: 100%;
+}
+
+.img_overlay img {
   width: 100%;
 }
 
