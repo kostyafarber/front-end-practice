@@ -3,29 +3,51 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet", href="main.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Launch countdown timer</title>
+  <script src="https://kit.fontawesome.com/f731b1ed0b.js" crossorigin="anonymous"></script>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Frontend Mentor | Launch countdown timer</title>
 </head>
 <body>
-
-  We're launching soon
-
-  Days
-  Hours
-  Minutes
-  Seconds
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <main>
+    <h1 class="heading">We're launching soon</h1>
+    <div class="countdown-container">
+      <div class="grid-container">   
+        <span class="numbers" id="days"></span>
+        <span class="numbers" id="hours"></span>
+        <span class="numbers" id="minutes"></span>
+        <span class="numbers" id="seconds"></span>
+        <span class="units">days</span>
+        <span class="units">hours</span>
+        <span class="units">minutes</span>
+        <span class="units">seconds</span>
+        <div class="rounder-1-left"></div>
+        <div class="rounder-1-right"></div>
+        <div class="rounder-2-left"></div>
+        <div class="rounder-2-right"></div>
+        <div class="rounder-3-left"></div>
+        <div class="rounder-3-right"></div>
+        <div class="rounder-4-left"></div>
+        <div class="rounder-4-right"></div>
+      </div>
+    </div>
+    <div class="socials">
+      <a href="#">
+        <i class="icon fa-brands fa-square-facebook fa-xl"></i>
+      </a>
+      <a href="#">
+        <i class="icon fa-brands fa-pinterest fa-xl"></i>
+      </a>
+      <a href="#">
+        <i class="icon fa-brands fa-instagram fa-xl"></i>
+      </a>
+      </div>
+    </div>
+  </main>
+    <div class="img_overlay">
+      <img src="/images/pattern-hills.svg" aria-hidden="true">
+    </div>   
+  <script src="index.js"></script>
 </body>
 </html>
