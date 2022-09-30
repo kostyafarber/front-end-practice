@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/launch-countdown-timer-htmlcss-javascript-responsive-qohsUzw1BV)
+- Live Site URL: [Live site URL](https://63371452ba09b0048de0b29e--fabulous-kitsune-5cb933.netlify.app/)
 
 ## My process
 
