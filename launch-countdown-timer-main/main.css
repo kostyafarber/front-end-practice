@@ -9,38 +9,30 @@
   --font: 'Red Hat Text', sans-serif;
 }
 
-* {
+*, *::before, *::after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: var(--font);
 }
 
-body {
-  height: 100vh;
-  min-height: -webkit-fill-available;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+* {
+  font-family: var(--font);
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
   text-align: center;
   background-image: url("images/bg-stars.svg");
   background-color: var(--m-black);
   position: relative;
 }
 
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
 main {
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -55,11 +47,21 @@ main {
   padding-bottom: 15rem;
 }
 
-.heading {
+h1.heading {
   color: var(--white);
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.3em;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-transform: uppercase;
+  font-size: 1.2em;
+}
+
+@media screen and (max-width: 845px) {
+  h1.heading {
+    font-size: 1.4em;
+  }
 }
 
 .grid-container {
@@ -72,18 +74,6 @@ main {
           column-gap: 1.5rem;
   row-gap: 1.3rem;
   padding: 1rem;
-}
-
-h1.heading {
-  margin-bottom: 100px;
-  text-transform: uppercase;
-  font-size: 1.2em;
-}
-
-@media screen and (max-width: 845px) {
-  h1.heading {
-    font-size: 1.4em;
-  }
 }
 
 .numbers {
@@ -265,9 +255,6 @@ h1.heading {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  position: absolute;
-  bottom: 5%;
-  z-index: 1;
   gap: 2rem;
 }
 
@@ -278,5 +265,26 @@ h1.heading {
 .socials .icon:hover {
   cursor: pointer;
   color: var(--soft-red);
+}
+
+footer {
+  background-image: url("images/pattern-hills.svg");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: center;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 25%;
+  position: absolute;
+  bottom: 0;
+}
+
+@media (max-width: 845px) {
+  footer {
+    width: 100%;
+    height: 25%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
