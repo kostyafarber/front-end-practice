@@ -33,8 +33,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Live site URL](https://elaborate-twilight-8e997d.netlify.app/)
+
+- Live Site URL: [Solution URL](https://www.frontendmentor.io/solutions/product-preview-using-reactscss-custom-product-trying-to-use-bem-GunR8ITQO3)
 
 ## My process
 
