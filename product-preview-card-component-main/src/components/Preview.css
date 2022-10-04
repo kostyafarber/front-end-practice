@@ -1,0 +1,124 @@
+@use '../index.scss';
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  width: 600px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+@media (max-width: 590px) {
+  .grid-container {
+    width: 340px;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
+.grid-container__product_image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.product-card {
+  background-color: var(--white);
+  padding: 2rem;
+}
+
+@media (max-width: 590px) {
+  .product-card {
+    padding: 1.4rem;
+  }
+}
+
+.product-card__type {
+  font-family: var(--montserrat);
+  font-size: 0.8em;
+  letter-spacing: 0.3em;
+  color: var(--dark-gray-blue);
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: var(--fraunces);
+  color: black;
+  margin-bottom: 1.5rem;
+  font-size: 1.95em;
+  line-height: 1.1em;
+}
+
+.product-card__desc {
+  font-family: 'Montserrat';
+  color: var(--dark-gray-blue);
+  font-weight: 400;
+  line-height: 1.6em;
+  font-size: 0.85em;
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 590px) {
+  .product-card__desc {
+    font-size: 1em;
+  }
+}
+
+.product-card__product_prices {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 25px;
+  margin-bottom: 1.7rem;
+}
+
+@media (max-width: 590px) {
+  .product-card__product_prices {
+    margin-bottom: 1rem;
+  }
+}
+
+.product-card__price {
+  font-family: 'Fraunces';
+  color: var(--dark-cyan);
+  font-size: 2em;
+}
+
+.product-card__price-reduced {
+  font-family: 'Montserrat';
+  color: var(--dark-gray-blue);
+  text-decoration: line-through;
+}
+
+button {
+  background-color: var(--dark-cyan);
+  color: var(--white);
+  width: 100%;
+  height: 48px;
+  border-radius: 7.5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+  border: 0;
+}
+
+button:hover {
+  background-color: #2d4235;
+  cursor: pointer;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+/*# sourceMappingURL=Preview.css.map */
