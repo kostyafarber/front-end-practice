@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.41ff274d.css",
-    "main.js": "/static/js/main.b8ac003d.js",
+    "main.js": "/static/js/main.c8b1cf9c.js",
     "static/media/graded_card.png": "/static/media/graded_card.d9f722dcc03230223486.png",
     "static/media/icon-cart.svg": "/static/media/icon-cart.9606ad84b7565a3f523f9429396f8066.svg",
     "index.html": "/index.html",
     "main.41ff274d.css.map": "/static/css/main.41ff274d.css.map",
-    "main.b8ac003d.js.map": "/static/js/main.b8ac003d.js.map"
+    "main.c8b1cf9c.js.map": "/static/js/main.c8b1cf9c.js.map"
   },
   "entrypoints": [
     "static/css/main.41ff274d.css",
-    "static/js/main.b8ac003d.js"
+    "static/js/main.c8b1cf9c.js"
   ]
 }
