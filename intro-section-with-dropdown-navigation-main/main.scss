@@ -1,0 +1,58 @@
+@use './reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+
+:root {
+    // colours
+    --almost-white: hsl(0, 0%, 98%);
+    --medium-gray: hsl(0, 0%, 41%);
+    --almost-black: hsl(0, 0%, 8%);
+
+    --font: 'Epilogue', sans-serif;
+}
+
+* {
+    font-family: var(--font);
+}
+
+body {
+    background-color: var(--almost-white);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5rem;
+
+    a:last-child {
+        display: block;
+    }
+
+    a:nth-last-child(2) {
+        margin-left: auto;
+    }
+}
+
+.nav_link:after {
+    content: url('/images/icon-arrow-down.svg');
+    margin-left: 0.5rem;
+}
+
+section {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+
+    img {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+h1 {
+    font-size: 4.1em;
+}
+p {
+    color: blue;
+}

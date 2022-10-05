@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap");
+@use './reset.css';
+:root {
+  --almost-white: hsl(0, 0%, 98%);
+  --medium-gray: hsl(0, 0%, 41%);
+  --almost-black: hsl(0, 0%, 8%);
+  --font: 'Epilogue', sans-serif;
+}
+
+* {
+  font-family: var(--font);
+}
+
+body {
+  background-color: var(--almost-white);
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 5rem;
+}
+
+nav a:last-child {
+  display: block;
+}
+
+nav a:nth-last-child(2) {
+  margin-left: auto;
+}
+
+.nav_link:after {
+  content: url("/images/icon-arrow-down.svg");
+  margin-left: 0.5rem;
+}
+
+section {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+}
+
+section img {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-size: 4.1em;
+}
+
+p {
+  color: blue;
+}
+/*# sourceMappingURL=main.css.map */
