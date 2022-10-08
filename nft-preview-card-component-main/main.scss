@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit&family=Overpass&display=swap');
 
 :root {
-    --main-bg: hsl(217, 54%, 11%);
-    --card-bg: hsl(216, 50%, 16%);
+    --main-bg: hsl(217deg 39% 10%);
+    --card-bg: hsl(216deg 79% 37%);
     --line: hsl(215, 32%, 27%);
     --white: hsl(0, 0%, 100%);
     --font: "Outfit", sans-serif;
@@ -34,7 +34,7 @@ html body {
 .card {
     border-radius: 5px;
     background-color: var(--card-bg);
-    max-width: 350px;
+    max-width: 315px;
     padding: 1.6em;
     position: relative;
 
@@ -85,10 +85,10 @@ img {
     border-radius: 5px;
     align-items: center;
     justify-content: center;
-    background-color: var(--cyan);
+    background-color: #fcec60;
     cursor: pointer;
     opacity: 0;
-    transition: 0.3s;
+    transition: 0.3s ease;
   
 }
 
@@ -154,7 +154,7 @@ img {
 
 
 .line {
-    border: 0.1px solid var(--line);
+    border: 0.1px solid white;
     width: auto;
     margin-top: 1.6rem;
 }
