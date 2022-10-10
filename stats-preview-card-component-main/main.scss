@@ -44,7 +44,7 @@ h1 {
     font-weight: 700;
     font-size: 2.1rem;
 
-    @media (max-width: 400px) {
+    @media (max-width: 700px) {
         font-size: 1.2rem;
     }
 }
@@ -62,7 +62,7 @@ p {
     padding-right: 1rem;
     font-weight: 300;
 
-    @media (max-width: 400px) {
+    @media (max-width: 700px) {
         text-align: center;
         font-size: 0.7rem;
         line-height: 1.2rem;
@@ -91,7 +91,7 @@ ul {
         // min-width: 500px;
     }
 
-    @media (max-width: 400px) {
+    @media (max-width: 700px) {
         width: 325px;
         flex-direction: column-reverse;
     }
@@ -103,7 +103,7 @@ ul {
     flex-direction: column;
     padding: 4rem 6.4rem 4rem 4rem ;
 
-    @media (max-width: 400px) {
+    @media (max-width: 700px) {
         padding: 1.8rem;
     }
 }
@@ -115,7 +115,7 @@ ul {
     margin-top: 7.6rem;
     grid-row-gap: 0.3rem;
 
-    @media (max-width: 400px) {
+    @media (max-width: 700px) {
         margin-top: 1rem;
     }
 }

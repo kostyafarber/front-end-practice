@@ -43,7 +43,7 @@ h1 {
   font-size: 2.1rem;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 700px) {
   h1 {
     font-size: 1.2rem;
   }
@@ -63,7 +63,7 @@ p {
   font-weight: 300;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 700px) {
   p {
     text-align: center;
     font-size: 0.7rem;
@@ -94,7 +94,7 @@ ul {
   height: 100%;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 700px) {
   .container {
     width: 325px;
     -webkit-box-orient: vertical;
@@ -115,7 +115,7 @@ ul {
   padding: 4rem 6.4rem 4rem 4rem;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 700px) {
   .text {
     padding: 1.8rem;
   }
@@ -132,7 +132,7 @@ ul {
   grid-row-gap: 0.3rem;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 700px) {
   .stats {
     margin-top: 1rem;
   }
