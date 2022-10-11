@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.41ff274d.css",
-    "main.js": "/static/js/main.c8b1cf9c.js",
-    "static/media/graded_card.png": "/static/media/graded_card.d9f722dcc03230223486.png",
+    "main.css": "/static/css/main.2c97f154.css",
+    "main.js": "/static/js/main.924e88e6.js",
+    "static/media/chrome-bg.jpg": "/static/media/chrome-bg.d7675908b812c98bf02d.jpg",
+    "static/media/yugioh-card.png": "/static/media/yugioh-card.0ee925c107e0243ea2d0.png",
     "static/media/icon-cart.svg": "/static/media/icon-cart.9606ad84b7565a3f523f9429396f8066.svg",
     "index.html": "/index.html",
-    "main.41ff274d.css.map": "/static/css/main.41ff274d.css.map",
-    "main.c8b1cf9c.js.map": "/static/js/main.c8b1cf9c.js.map"
+    "main.2c97f154.css.map": "/static/css/main.2c97f154.css.map",
+    "main.924e88e6.js.map": "/static/js/main.924e88e6.js.map"
   },
   "entrypoints": [
-    "static/css/main.41ff274d.css",
-    "static/js/main.c8b1cf9c.js"
+    "static/css/main.2c97f154.css",
+    "static/js/main.924e88e6.js"
   ]
 }

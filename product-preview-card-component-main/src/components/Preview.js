@@ -1,5 +1,5 @@
 import './Preview.css';
-import productImage from './images/graded_card.png';
+import productImage from './images/yugioh-card.png';
 import shoppingIcon from './images/icon-cart.svg';
 
 function Preview({product: {productType, productName, productDesc, price, priceReduced}}) {

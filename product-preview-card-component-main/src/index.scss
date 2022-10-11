@@ -4,7 +4,7 @@
 :root {
 
     // primary
-    --dark-cyan: hsl(158, 36%, 37%);
+    --dark-cyan: hsl(256deg 100% 63%);
     --cream: hsl(30, 38%, 92%);
 
     // neutral
@@ -28,5 +28,6 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: var(--cream);
+    // background-color: var(--cream);
+    background-image: url('./components/images/chrome-bg.jpg');
 }
