@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL here](https://github.com/kostyafarber/front-end-practice/tree/main/advice-generator-app-main)
-- Live Site URL: [Live site URL](https://630bce4ba5277f0caf062924--lighthearted-jelly-3b8d46.netlify.app/)
+- Live Site URL: [Live site URL](https://lighthearted-jelly-3b8d46.netlify.app/)
 
 ### Built with
 
