@@ -4,17 +4,18 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [Frontend Mentor - Product preview card component solution](#frontend-mentor---product-preview-card-component-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+    - [Continued development](#continued-development)
+    - [Useful resources](#useful-resources)
+  - [Author](#author)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -29,7 +30,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](images/desktop-design.png)
+![](images/product-preview-lg.png)
 
 ### Links
 
