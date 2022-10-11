@@ -1,135 +1,133 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap");
 @font-face {
-    font-family: 'OffBit Trial Dot Bold';
-    src: url('./fonts/OffBitTrial-DotBold.ttf');
+  font-family: "OffBit Trial Dot Bold";
+  src: url("./fonts/OffBitTrial-DotBold.ttf");
 }
 :root {
-// background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+  // background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
 
-    // primary 
-    --light-cyan: hsl(193, 38%, 86%);
-    --neon-green: hsl(73deg 100% 66%);
+  // primary
+  --light-cyan: hsl(193, 38%, 86%);
+  --neon-green: hsl(73deg 100% 66%);
 
-    // neutral
-    --gray-blue: hsl(217, 19%, 38%);
-    --dark-gray-blue: black;
-    --dark-blue: hsl(218, 23%, 16%);
-    --manrope: 'OffBit Trial Dot Bold';
+  // neutral
+  --gray-blue: hsl(217, 19%, 38%);
+  --dark-gray-blue: black;
+  --dark-blue: hsl(218, 23%, 16%);
+  --manrope: "OffBit Trial Dot Bold";
 }
 
 * {
-    box-sizing: border-box;
-    font-family: var(--manrope);
-    color: var(--light-cyan);
+  box-sizing: border-box;
+  font-family: var(--manrope);
+  color: var(--light-cyan);
 }
 
 html {
-    min-height: 100vh;
-    // background-color: var(--dark-blue);
-    background-image: url('./images/15.png');
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  min-height: 100vh;
+  // background-color: var(--dark-blue);
+  background-image: url("./images/15.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 main {
-    background-color: var(--dark-gray-blue);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    max-width: 500px;
-    padding: 1.8rem;
-    border-radius: 15px;
-    text-align: center;
-    position: relative;
+  background-color: var(--dark-gray-blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 500px;
+  padding: 1.8rem;
+  border-radius: 15px;
+  text-align: center;
+  position: relative;
 
-    @media only screen and (max-width: 500px)  {
-        max-width: 360px;
-    }
+  @media only screen and (max-width: 500px) {
+    max-width: 360px;
+  }
 }
 
-p, span {
-    text-transform: uppercase;
-    font-size: 0.75em;
-    font-weight: 400;
-    color: var(--neon-green);
-    letter-spacing: 0.3em;
+p,
+span {
+  text-transform: uppercase;
+  font-size: 0.75em;
+  font-weight: 400;
+  color: var(--neon-green);
+  letter-spacing: 0.3em;
 }
 
 h1 {
-    font-weight: 700;
-    margin-bottom: 1.8rem;
-    font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 1.8rem;
+  font-size: 1.5em;
 }
 
 .line {
-    margin-bottom: 2.3rem;
+  margin-bottom: 2.3rem;
 
-    @media only screen and (max-width: 500px)  {
-        max-width: 300px;
-    }
+  @media only screen and (max-width: 500px) {
+    max-width: 300px;
+  }
 }
 
 img.dice {
-    width: 22px;
-    height: 22px;
-    
+  width: 22px;
+  height: 22px;
 }
 
 button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    position: absolute;
-    background-color: var(--neon-green);
-    bottom: -30px;
-    border: none;
-    
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: var(--neon-green);
+  bottom: -30px;
+  border: none;
 }
 
 button:hover {
-    color: rgba(255, 255, 255, 1);
-    box-shadow: 0 5px 15px var(--neon-green);
-    cursor: pointer;
-    transition: 0.3s;
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px var(--neon-green);
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 /* Pulse Grow */
 @-webkit-keyframes hvr-pulse-grow {
-    to {
-      -webkit-transform: scale(1.1);
-      transform: scale(1.1);
-    }
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
   }
-  @keyframes hvr-pulse-grow {
-    to {
-      -webkit-transform: scale(1.1);
-      transform: scale(1.1);
-    }
+}
+@keyframes hvr-pulse-grow {
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
   }
-  .hvr-pulse-grow {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  }
-  .hvr-pulse-grow:hover, .hvr-pulse-grow:focus, .hvr-pulse-grow:active {
-    -webkit-animation-name: hvr-pulse-grow;
-    animation-name: hvr-pulse-grow;
-    -webkit-animation-duration: 0.3s;
-    animation-duration: 0.3s;
-    -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    -webkit-animation-direction: alternate;
-    animation-direction: alternate;
-  }
-
-
-
+}
+.hvr-pulse-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-pulse-grow:hover,
+.hvr-pulse-grow:focus,
+.hvr-pulse-grow:active {
+  -webkit-animation-name: hvr-pulse-grow;
+  animation-name: hvr-pulse-grow;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
